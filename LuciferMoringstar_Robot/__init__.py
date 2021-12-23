@@ -25,17 +25,17 @@ Bot Owner Only
 /logger  Get Logs
 /delete Delete File From Database
 
+Powered by: @ADVERT4U ❤
+
 """
 
 ABOUT = """
 ➥ Name :  Auto Filter V3
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+➥ Creator : @advert4u
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
 """
