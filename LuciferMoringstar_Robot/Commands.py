@@ -84,7 +84,8 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 DEPLOY YOURS 🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('💠Updates', url='https://t.me/advert4u'),
+                        InlineKeyboardButton('💠Channel', url='https://t.me/Moviemasala2_0')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -115,7 +116,8 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton('💠Updates', url='https://t.me/advert4u'),
+                        InlineKeyboardButton('💠Channel', url='https://t.me/Moviemasala2_0')
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
@@ -331,7 +333,8 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('💠Updates', url='https://t.me/advert4u'),
+                        InlineKeyboardButton('💠Channel', url='https://t.me/Moviemasala2_0')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
