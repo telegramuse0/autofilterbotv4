@@ -30,12 +30,10 @@ Powered by: @ADVERT4U ❤
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
-    
-➥ Creator : @advert4u
-
-➥ Language : Python3
-
-➥ Library : Pyrogram Asyncio 1.13.0
-
+✮ 𝙽𝙰𝙼𝙴: [ADVERT AUTO MEDIA BOT](https://T.ME/ADVERT4U)
+✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
+✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
 """
