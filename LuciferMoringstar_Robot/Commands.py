@@ -119,8 +119,8 @@ async def start(bot, message):
                 InlineKeyboardButton('💠Updates', url='https://t.me/advert4u'),
                         InlineKeyboardButton('💠Channel', url='https://t.me/Moviemasala2_0')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("⚠️Help", callback_data="help"),
+                InlineKeyboardButton("ℹ️About", callback_data="about")
                 ]]
             )
         )
