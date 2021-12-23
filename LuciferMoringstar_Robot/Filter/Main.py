@@ -150,9 +150,9 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=advert4u, reply_markup=InlineKeyboardMarkup(buttons))
             else:
-                await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(advert4u, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -168,9 +168,9 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=advert4u, reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(advert4u, reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
@@ -289,9 +289,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('💠 Updates', url='https://t.me/advert4u'),
                InlineKeyboardButton('💠 Channel', url='https://t.me/Moviemasala2_0')
                 ]
-                            [
-                InlineKeyboardButton('♻️ 𝗛𝗲𝗹𝗽 ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
-            ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
